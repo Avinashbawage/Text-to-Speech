@@ -1,5 +1,5 @@
 body {
-  background: #833ab4; /* fallback for old browsers */
+  background: #4A90E2; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #fcb045,
@@ -7,6 +7,8 @@ body {
     #833ab4
   ); /* Chrome 10-25, Safari 5.1-6 */
   top: "100px";
+  display: flex;
+  justify-content: center;
 }
 
 .Container {
@@ -17,21 +19,38 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   position: absolute;
-  left: 38%;
-  margin-top: "100px";
-  width: "200px";
+
+  top: 60px;
+  bottom: 60px;
+  width: 1000px;
+ 
+ 
   text-align: center;
   align-items: center;
-  padding: 50px;
+  padding: 20px;
   border-radius: 5px;
   border: 1px solid black;
 }
 
 #txtInput {
-  width: 200px;
-  height: 100px;
+  width: 800px;
+  height: 300px;
+  border-radius: 8px;
 }
 
 #texspeech {
-  font-family: "Times New Roman", Times, serif;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #000; 
+}
+
+#voiceList{
+  padding: 6px;
+  border-radius: 8px;
+}
+.fa-solid, .fas{
+  font-size: 30px;
+  margin-top: 20px;
+  cursor: pointer;
 }
